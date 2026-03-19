@@ -1,7 +1,4 @@
 # Vox Chain
-# Vox Chain
-
-# VOX Chain
 
 VOX Chain is a blockchain-based system designed to provide secure, transparent, and tamper-proof digital record management using decentralized technology.
 
@@ -100,6 +97,3 @@ User submits:
 - Voting system  
 - Identity management  
 
----
-
-## 🏗️ Project Structure
