@@ -113,6 +113,4 @@ Each timetable is evaluated based on:
 - Notification system  
 - Export to PDF/Excel  
 
----
 
-## 🏗️ Project Structure
