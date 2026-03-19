@@ -1,116 +1,105 @@
-# ChoronoGen_Hackthon
-# ChronoGen
+# Vox Chain
+# Vox Chain
 
-ChronoGen is an intelligent timetable generation system that uses Genetic Algorithms to automatically create optimized, conflict-free schedules for educational institutions.
+# VOX Chain
+
+VOX Chain is a blockchain-based system designed to provide secure, transparent, and tamper-proof digital record management using decentralized technology.
 
 ---
 
 ## 📌 Problem Statement
 
-Timetable creation in schools and colleges is a complex and time-consuming task. It involves handling multiple constraints such as:
+In today’s digital world, data integrity and transparency are major concerns. Traditional centralized systems suffer from:
 
-- Teacher availability  
-- Classroom allocation  
-- Subject requirements  
-- Avoiding scheduling conflicts  
+- ❌ Data tampering and security risks  
+- ❌ Lack of transparency  
+- ❌ Single point of failure  
+- ❌ Trust issues between parties  
+- ❌ Inefficient verification processes  
 
-Manual scheduling often leads to:
-- ❌ Teacher and room conflicts  
-- ❌ Uneven workload distribution  
-- ❌ Inefficient resource usage  
-- ❌ Difficulty handling sudden changes  
-
-ChronoGen aims to solve these challenges using an automated and optimized approach.
+Sensitive data such as records, transactions, or certificates can be altered or misused without proper traceability.
 
 ---
 
 ## 🎯 Objective
 
-The goal of ChronoGen is to:
+The goal of VOX Chain is to:
 
-- Generate conflict-free timetables  
-- Optimize resource utilization  
-- Balance teacher workload  
-- Adapt to dynamic constraints  
-- Reduce manual effort using automation  
+- Ensure secure and tamper-proof data storage  
+- Provide transparency through blockchain  
+- Eliminate dependency on centralized systems  
+- Enable trustless verification  
+- Maintain immutable records  
 
 ---
 
 ## 🚀 Solution Overview
 
-ChronoGen uses a **Genetic Algorithm (GA)** approach:
+VOX Chain uses **Blockchain Technology** to store and manage data securely.
 
-1. Generate multiple timetable solutions  
-2. Evaluate them using a fitness function  
-3. Select the best candidates  
-4. Apply crossover and mutation  
-5. Repeat until the best timetable is found  
+Key idea:
+- Data is stored in blocks  
+- Each block is linked using cryptographic hashes  
+- Once added, data cannot be modified  
 
 ---
 
 ## 🧠 How It Works
 
-### 1. Input Data
-- Teachers  
-- Subjects  
-- Class sections  
-- Rooms  
-- Time slots  
-- Constraints  
+### 1. Data Input
+User submits:
+- Transaction / record / document  
 
 ---
 
-### 2. Initial Population
-- Random timetables are generated  
-- Each represents a possible solution  
+### 2. Block Creation
+- Data is converted into a block  
+- Includes:
+  - Data  
+  - Timestamp  
+  - Previous block hash  
 
 ---
 
-### 3. Fitness Function
-Each timetable is evaluated based on:
-
-- No teacher conflicts  
-- No classroom conflicts  
-- Balanced workload  
-- Proper subject distribution  
+### 3. Hash Generation
+- Each block gets a unique cryptographic hash  
 
 ---
 
-### 4. Genetic Operations
-
-- **Selection:** Choose best timetables  
-- **Crossover:** Combine two timetables  
-- **Mutation:** Introduce small random changes  
+### 4. Chain Formation
+- Blocks are linked together  
+- Forms a secure blockchain  
 
 ---
 
-### 5. Iteration
-- Repeated over multiple generations  
-- Improves solution quality step-by-step  
+### 5. Validation
+- Each new block is verified before adding  
+- Ensures data integrity  
 
 ---
 
 ### 6. Output
-- Final optimized timetable  
-- Can be displayed or exported  
+- Immutable, transparent record system  
 
 ---
 
 ## ⚙️ Features
 
-- ✅ Conflict-free scheduling  
-- ✅ Balanced teacher workload  
-- ✅ Optimized subject allocation  
-- ✅ Fast timetable generation  
-- ✅ Scalable system  
+- ✅ Tamper-proof data storage  
+- ✅ Decentralized architecture  
+- ✅ Secure transactions  
+- ✅ Transparent record tracking  
+- ✅ Immutable data  
 
 ---
 
 ## 🔥 Advanced Features (Optional)
 
-- Auto-rescheduling (teacher absence)  
-- Analytics dashboard  
-- Notification system  
-- Export to PDF/Excel  
+- Smart contract integration  
+- Digital certificate verification  
+- Voting system  
+- Identity management  
 
+---
 
+## 🏗️ Project Structure
